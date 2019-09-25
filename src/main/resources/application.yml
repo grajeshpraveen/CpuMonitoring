@@ -1,0 +1,14 @@
+#host values
+details:
+    hostname: 172.25.26.41
+    username: lsingapilli
+    password: Miracle@212
+#logging 
+logging:
+    level:
+        org.springframework: ERROR
+        com.everest: DEBUG
+    file: 'C:\\Spring_logs\\application-debug.log'
+    pattern:
+        console: '%d %-5level %logger : %msg%n'
+        file: '%d %-5level [%thread] %logger : %msg%n'
